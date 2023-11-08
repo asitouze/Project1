@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: black;
 }
 
 /* la nav */
@@ -20,15 +21,14 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 li a {
     text-decoration: none;
     font-size: 20px;
     color: black;
-    padding: 34.5px 0px;
-} 
+    padding: 34.5px 15px;
+}
 
 li a:hover {
     color: deeppink;
@@ -42,16 +42,25 @@ h1 {
     text-align: center;
 }
 
+/* main */
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 650px;
+}
+
+/* Annuaire */
 .Promo {
-    display:grid;
-    border:2px black solid;
+    display: grid;
+    border: 2px black solid;
     /* gap:10px; */
     grid-template-columns: 0.5fr 2fr;
     grid-template-areas: "img p"
-    "img button";
+        "img button";
     align-items: center;
-    
     background-image: url(https://www.hdwallpapers.in/download/mixed_colorful_background_hd_background-1600x900.jpg);
 }
 
@@ -62,12 +71,13 @@ h1 {
 }
 
 
-p {
+.p1 {
     grid-area: p;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.button {
+.button1 {
+    grid-area:button;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -76,19 +86,101 @@ p {
     color: black;
     border-radius: 10px;
     background-color: purple;
-    width : 300px;
+    width: 300px;
     height: 70px;
     justify-self: center;
-    
-  }
-  
-  .button:hover {
-    color:deeppink;
-    background-color: black;
-  }
-  
-/* footer */
-
-h3 {
-    float:right;
 }
+
+.button1:hover {
+    color: deeppink;
+    background-color: black;
+}
+
+/* Formation */
+.Formation {
+    display: grid;
+    border: 2px black solid;
+    /* gap:10px; */
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-areas: "img p"
+        "img button";
+    align-items: center;
+    background-image: url(https://www.hdwallpapers.in/download/mixed_colorful_background_hd_background-1600x900.jpg);
+}
+
+.formation {
+    grid-area: img;
+    height: 206.688px;
+    width: 250px;
+}
+
+.p2 {
+    grid-area: p;
+    font-size: 20px;
+}
+
+.button2 {
+    grid-area:button;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: purple;
+    width: 300px;
+    height: 70px;
+    justify-self: center;
+}
+
+.button2:hover {
+    color: deeppink;
+    background-color: black;
+}
+
+/* Passions */
+
+.Passions {
+    display: grid;
+    border: 2px black solid;
+    /* gap:10px; */
+    grid-template-columns: 0.5fr 2fr;
+    grid-template-areas: "img p"
+        "img button";
+    align-items: center;
+    background-image: url(https://www.hdwallpapers.in/download/mixed_colorful_background_hd_background-1600x900.jpg);
+}
+
+.passion {
+    grid-area: img;
+    height: 206.688px;
+    width: 250px;
+}
+
+.p3 {
+    grid-area: p;
+    font-size: 20px;
+}
+
+.button3 {
+    grid-area: button;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    background-color: purple;
+    width: 300px;
+    height: 70px;
+    justify-self: center;
+}
+
+.button3:hover {
+    color: deeppink;
+    background-color: black;
+}
+
+
