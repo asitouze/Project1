@@ -45,11 +45,12 @@ h1 {
     
         text-align: center;
         box-sizing: border-box;
-        background-image: url(https://www.hdwallpapers.in/download/mixed_colorful_background_hd_background-1600x900.jpg);
         font-size: 60px;
-        margin:20px;
-        padding: 60px;
-
+        margin: 5px;
+        padding: 40px;
+        background-image: url("../img/images.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
 
     }
     
@@ -105,13 +106,18 @@ p {
 
 footer{
     padding: 1rem;
+    
 }
 
 .mentions{
-    box-sizing: border-box;
-    background-image: url("https://www.hdwallpapers.in/download/mixed_colorful_background_hd_background-1600x900.jpg");
-    display: flex;
-    justify-content: space-between;
 
+     
+    background-image: url("../img/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60px;
+    justify-content: space-between;
+    
 }
+    
 
