@@ -10,6 +10,8 @@ body {
 /* la nav */
 nav {
     background-image: url("images.jpg");
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .wild {
@@ -80,10 +82,7 @@ main {
     grid-area:button;
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: black;
+    padding: 0 20px; 
     border-radius: 10px;
     background-color: purple;
     width: 300px;
@@ -91,9 +90,15 @@ main {
     justify-self: center;
 }
 
+.button1  {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
 .button1:hover {
-    color: deeppink;
     background-color: black;
+    color:deeppink;
 }
 
 /* Formation */
